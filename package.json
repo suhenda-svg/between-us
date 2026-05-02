@@ -1,7 +1,7 @@
 {
-  "name": "between-us-pwa",
+  "name": "between-us-cloud-pwa",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
@@ -9,6 +9,7 @@
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
+    "@supabase/supabase-js": "2.89.0",
     "@vitejs/plugin-react": "5.1.2",
     "vite": "7.3.2",
     "vite-plugin-pwa": "1.2.0",
